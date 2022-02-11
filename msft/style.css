@@ -299,17 +299,26 @@ ul {
   .home-cards {
     grid-template-columns: repeat(2, 1fr);
   }
-  .xbox .content p {
+
+  .xbox .content,   .carbon .content  {
+    width: 85%;
+  }
+
+  .xbox .content p, .carbon .content p {
     display: none;
   }
 
-  .xbox .content h2 {
+  .xbox .content h2,.carbon .content h2 {
+ margin-top: 10px;
+
     margin-bottom: 20px;
   }
 
-  .carbon .content {
+
+
+  /* .carbon .content {
     width: 85%;
-  }
+  } */
 
   .links .links-inner {
     grid-template-columns: repeat(2, 1fr);

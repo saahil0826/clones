@@ -1,1 +1,5 @@
-- Check the live version [here](sbuxwebsite.surge.sh)
+- sbuxwebsite.surge.sh
+
+- huluwebsite.surge.sh
+
+- msftwebsite.surge.sh
